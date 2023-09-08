@@ -1,8 +1,8 @@
 <?php
-$host = '';
-$user = '';
-$password = '';
-$database = '';
+$host = 'your_host';
+$user = 'your_username';
+$password = 'your_password';
+$database = 'your_database';
 
 $mysqli = new mysqli($host, $user, $password, $database);
 
